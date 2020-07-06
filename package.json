@@ -1,9 +1,8 @@
 {
-  "name": "TM-Sending-Email",
+  "name": "A2A-Backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "babel-node index.js",
     "dev:start": "clear; nodemon --exec babel-node index.js"
@@ -13,7 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.8.4",
-    "@babel/node": "^7.8.7",
     "@babel/preset-env": "^7.8.4",
     "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
@@ -31,7 +29,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
-    "@babel/node": "^7.8.7",
+    "@babel/node": "^7.10.4",
     "@babel/preset-env": "^7.8.4",
     "babel-loader": "^8.0.6",
     "nodemon": "^2.0.2"
